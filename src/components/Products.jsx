@@ -8,7 +8,7 @@ const Products = ({filterText, showCheapestOnly}) => {
     .sort((a, b) => a.price - b.price)
     .slice(0, showCheapestOnly ? 5 : Infinity)
     return (
-        <div className="w-fill mx-auto grid lg:grid-cols-4 md:3 gap-2 relative" id="products" >
+        <div className="w-fill mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-2 relative" id="products" >
         {filteredProducts.length > 0 ?
         filteredProducts.map(item => (
             <ProductCard item={item.name} price={item.price} img={item.image} key={item.id} />
