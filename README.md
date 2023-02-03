@@ -6,7 +6,12 @@ git clone https://github.com/emr404/spaces-01T.git
 `npm install`
 ## Running the app
 `npm start`
+
 This will launch the app in your browser at http://localhost:3000/.
 ## Running Playwright tests
-Navigate in terminal to tests folder and run
+Navigate in terminal to  test folder and run
 `npx playwright test --headed `
+## Tools used
++ ReactJs
++ TailwindCSS
++ Playwright
