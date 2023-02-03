@@ -1,0 +1,10 @@
+The code has four functions that are used to test different aspects of the web page:
+'getProductCount' returns the number of products displayed on the page.
+'getFiveCheapestProducts' compares the prices of the five cheapest products displayed on the page with the expected values stored in the JSON file.
+'getProductName' returns the name of a product displayed on the page.
+'test function' is the main test function that carries out several tests on the web page. It navigates to the URL, interacts with the elements on the page, and checks if the expected results are obtained.
+
+The tests carried out in the test function are as follows:
+On page load only, verify that the checkbox is checked, that the number of items is 5, and that they are the cheapest 5 items.
+Toggle the button and verify that the number of products changes and that the five cheapest products are displayed.
+Search for 'Audi' in the text box and verify that all Audi cars are displayed.
